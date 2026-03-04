@@ -1,0 +1,42 @@
+import Container from "@mui/material/Container";
+import Grid from "@mui/material/Grid";
+import Typography from "@mui/material/Typography";
+import Box from "@mui/material/Box";
+import profilePic from '../assets/profile/profile.jpeg'
+import React from "react";
+
+function Home(){
+    return(
+        <Container sx={{mt:8}}>
+            <Grid  container spacing={4} alignItems="center">
+                <Grid size={{xs:12, sm:6}}>
+                    <Typography variant="h3" fontWeight="bold">Hi, I'm Apoorva</Typography>
+                    <Typography variant="h5" sx={{ mt: 1 }}>Software Developer</Typography>
+                    <Typography sx={{mt:1}}>Aspiring Software Development Engineer with an Electronics and Communication Engineering background,
+                    transitioning into software development. Strong foundation in C++ and Data Structures & Algorithms, with hands on
+                    experience building real world React applications involving state management, CRUD operations, authentication, and
+                    role based workflows. Passionate about writing clean, maintainable code and continuously improving problem solving
+                    skills.</Typography>
+                </Grid>
+
+                <Grid size={{xs:12, sm:6}}>
+                    <Box
+                        component="img"
+                        sx={{
+                        width: 250,
+                        height: 250,
+                        borderRadius: "50%",
+                        objectFit: "cover",
+                        display: "block",
+                        margin: "auto",
+                        }}
+                        alt="Apoorva"
+                        src={profilePic}
+                    />
+                </Grid>
+            </Grid>
+        </Container>
+    )
+}
+
+export default Home;
