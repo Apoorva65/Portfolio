@@ -40,9 +40,9 @@ function Contact(){
                                 </Box>
 
                             </Stack>
-                            </Grid>
+                        </Grid>
 
-                            <Grid size={{ xs: 12, md: 6 }}>
+                        <Grid size={{ xs: 12, md: 6 }}>
                             <Stack
                                 direction="row"
                                 spacing={2}
@@ -64,9 +64,9 @@ function Contact(){
                                 </Box>
 
                             </Stack>
-                            </Grid>
+                        </Grid>
 
-                            <Grid size={{ xs: 12, md: 6 }}>
+                        <Grid size={{ xs: 12, md: 6 }}>
                             <Stack
                                 direction="row"
                                 spacing={2}
@@ -88,9 +88,9 @@ function Contact(){
                                 </Box>
 
                             </Stack>
-                            </Grid>
+                        </Grid>
 
-                            <Grid size={{ xs: 12, md: 6 }}>
+                        <Grid size={{ xs: 12, md: 6 }}>
                             <Stack
                                 direction="row"
                                 spacing={2}
@@ -102,8 +102,7 @@ function Contact(){
                                 <Typography
                                     variant="subtitle2"
                                     color="text.secondary"
-                                    textAlign="center"
-                                >
+                                    textAlign="center">
                                     LOCATION
                                 </Typography>
 
@@ -113,7 +112,7 @@ function Contact(){
                                 </Box>
 
                             </Stack>
-                            </Grid>
+                        </Grid>
                     </Grid>
         </Container>
     )
