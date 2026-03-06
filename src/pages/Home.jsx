@@ -9,8 +9,8 @@ import GitHubIcon from "@mui/icons-material/GitHub"
 import LinkedInIcon from "@mui/icons-material/LinkedIn"
 import DownloadIcon from "@mui/icons-material/Download"
 import React from "react";
-import { FaHtml5,FaCss3Alt,FaReact,FaGitAlt,FaGithub } from "react-icons/fa";
-import { IoLogoJavascript } from "react-icons/io5";
+import { FaHtml5,FaCss3Alt,FaReact,FaGitAlt,FaGithub,FaNpm } from "react-icons/fa";
+import { IoLogoJavascript,IoLogoVercel } from "react-icons/io5";
 import { SiTailwindcss,SiRedux,SiMui } from "react-icons/si";
 import { TbBrandCpp } from "react-icons/tb";
 
@@ -26,10 +26,28 @@ function Home(){
                     experience building real world React applications involving state management, CRUD operations, authentication, and
                     role based workflows. Passionate about writing clean, maintainable code and continuously improving problem solving
                     skills.</Typography>
-                    <Stack direction="row" spacing={3} sx={{m:2}}><TbBrandCpp size={25}/> <FaHtml5 size={25}/> <FaCss3Alt size={25}/> <IoLogoJavascript size={25}/> <FaReact size={25}/> <SiRedux size={25}/> <SiTailwindcss size={25}/> <SiMui size={25}/> <FaGitAlt size={25}/> <FaGithub size={25}/></Stack>
-                    <Button variant="outlined" sx={{mt:2,mr:2,borderRadius:"16px"}}><DownloadIcon sx={{mr:0.5}}/>Resume</Button>
-                    <Button variant="outlined" sx={{mt:2, mr:2,borderRadius:"16px"}}><GitHubIcon /></Button>
-                    <Button variant="outlined" sx={{mt:2,mr:2,borderRadius:"16px"}}><LinkedInIcon /></Button>
+                    <Stack direction="row" spacing={3} sx={{m:2}}><TbBrandCpp size={25}/> <FaHtml5 size={25}/> <FaCss3Alt size={25}/> <IoLogoJavascript size={25}/> <FaReact size={25}/> <SiRedux size={25}/> <SiTailwindcss size={25}/> <SiMui size={25}/> <FaGitAlt size={25}/> <FaGithub size={25}/> <IoLogoVercel size={25}/> <FaNpm size={25}/></Stack>
+                    <Button variant="outlined" sx={{mt:2,mr:2,borderRadius:"16px"}}
+                    component="a"
+                    href="/Resume_Apoorva.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                        <DownloadIcon sx={{mr:0.5}}/>Resume
+                    </Button>
+                    <Button variant="outlined" sx={{mt:2, mr:2,borderRadius:"16px"}}
+                    component="a"
+                    href="https://github.com/Apoorva65"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                        <GitHubIcon />
+                    </Button>
+                    <Button variant="outlined" sx={{mt:2,mr:2,borderRadius:"16px"}}
+                    component="a"
+                    href="https://www.linkedin.com/in/apoorva-dixit-0b6698217/"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                        <LinkedInIcon />
+                    </Button>
                 </Grid>
 
                 <Grid size={{sm:12, md:6}}>

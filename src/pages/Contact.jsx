@@ -24,7 +24,13 @@ function Contact(){
                                 spacing={2}
                                 alignItems="center"
                                 justifyContent="center">
-                                <Button><EmailIcon sx={{ fontSize: 40 }} /></Button>
+                                <Button
+                                component="a"
+                                href="mailto:apoorvasdixit@gmail.com"
+                                target="_blank"
+                                rel="noopener noreferrer">
+                                    <EmailIcon sx={{ fontSize: 40 }} />
+                                </Button>
 
                                 <Box>
                                 <Typography
@@ -48,7 +54,13 @@ function Contact(){
                                 spacing={2}
                                 alignItems="center"
                                 justifyContent="center">
-                                <Button><LinkedInIcon sx={{ fontSize: 40 }} /></Button>
+                                <Button
+                                component="a"
+                                href="https://www.linkedin.com/in/apoorva-dixit-0b6698217/"
+                                target="_blank"
+                                rel="noopener noreferrer">
+                                    <LinkedInIcon sx={{ fontSize: 40 }} />
+                                </Button>
 
                                 <Box>
                                 <Typography
@@ -72,7 +84,13 @@ function Contact(){
                                 spacing={2}
                                 alignItems="center"
                                 justifyContent="center">
-                                <Button><GitHubIcon sx={{ fontSize: 40 }} /></Button>
+                                <Button
+                                component="a"
+                                href="https://github.com/Apoorva65"
+                                target="_blank"
+                                rel="noopener noreferrer">
+                                    <GitHubIcon sx={{ fontSize: 40 }} />
+                                </Button>
 
                                 <Box>
                                 <Typography

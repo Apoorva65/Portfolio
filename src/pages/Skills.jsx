@@ -23,6 +23,7 @@ function Skills(){
                         <Paper variant="elevation" elevation={3} sx={{display:"inline-block",py:2,px:3,m:2,borderRadius:"30px"}}>HTML</Paper>
                         <Paper variant="elevation" elevation={3} sx={{display:"inline-block",py:2,px:3,m:2,borderRadius:"30px"}}>CSS</Paper>
                         <Paper variant="elevation" elevation={3} sx={{display:"inline-block",py:2,px:3,m:2,borderRadius:"30px"}}>Tailwind CSS</Paper>
+                        <Paper variant="elevation" elevation={3} sx={{display:"inline-block",py:2,px:3,m:2,borderRadius:"30px"}}>Material UI</Paper>
                     </Grid>
 
                 <Typography variant="h5" fontWeight="bold" sx={{mt:4}}>State Management</Typography>
